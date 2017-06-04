@@ -23,22 +23,22 @@
     {% endif %}
   {% if level_3 %}
     {% with ""|add:level_1|add:"/_nav_tertiary.html" as tertiary %}
-    {% include tertiary %}
+    <li>{% include tertiary %}</li>
     {% endwith %}
   {% else %}
     {% if level_2 %}
       {% if tertiary %}
         {% with ""|add:level_1|add:"/_nav_tertiary.html" as tertiary %}
-        {% include tertiary %}
+        <li>{% include tertiary %}</li>
         {% endwith %}
       {% else %}
         {% with ""|add:level_1|add:"/_nav_secondary.html" as secondary %}
-        {% include secondary with icon="true" %}
+        <li>{% include secondary with icon="true" %}</li>
         {% endwith %}
       {% endif %}
     {% else %}
       {% with ""|add:level_1|add:"/_nav_secondary.html" as secondary %}
-      {% include secondary with icon="true" %}
+      <li>{% include secondary with icon="true" %}</li>
       {% endwith %}
     {% endif %}
   {% endif %}

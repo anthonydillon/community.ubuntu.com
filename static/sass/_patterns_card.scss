@@ -1,0 +1,8 @@
+@mixin community-p-card {
+  // XXX Ant 04.06.17 Fix for issue:
+  // https://github.com/vanilla-framework/vanilla-brochure-theme/issues/82
+  .p-card,
+  .p-card--highlighted {
+    color: $color-dark;
+  }
+}
