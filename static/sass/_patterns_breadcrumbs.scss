@@ -25,6 +25,13 @@
       .p-inline-list__link  {
         @extend .p-breadcrumbs__link;
       }
+
+      .p-inline-list__link,
+      .p-breadcrumbs__link {
+        &.is-active {
+          color: $color-brand;
+        }
+      }
     }
 
     .second-level-nav {

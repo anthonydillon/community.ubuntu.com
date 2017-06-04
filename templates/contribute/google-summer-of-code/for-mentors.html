@@ -1,0 +1,77 @@
+{% extends "contribute/base.html" %}
+
+{% block title %}For mentors | Google Summer of Code | Contribute {% endblock %}
+
+{% block second_level_nav_items %}
+<div class="strip-inner-wrapper">
+    {% include "templates/_nav_breadcrumb.html" with section_title="Contribute" subsection_title="Google Summer of Code" page_title="For mentors" tertiary="true" %}
+</div>
+{% endblock second_level_nav_items %}
+
+{% block content %}
+<section class="p-strip--light is-deep is-bordered">
+  <div class="row">
+    <div class="col-12">
+      <h1 id="information-for-mentors">Information for mentors</h1>
+      <p>
+        <strong>Prospective mentors should be active developers who have been
+        able to make a useful and sustained contribution to Ubuntu, and have
+        demonstrated an ability to lead the community in further development of
+        the distribution.</strong>
+      </p>
+      <p>
+        You&rsquo;ll be responsible for answering any questions the selected
+        students have, and help them to settle into the community for the
+        duration of the SoC. You will also be responsible for providing feedback
+        to Google, the Student and Ubuntu on the project progress, as well as
+        evaluating the project at the end of the programme.</p>
+      <p>
+        For your time and trouble you will receive a cool limited edition t-shirt
+        and other goodies.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="p-strip is-deep">
+  <div class="row">
+    <div class="col-12">
+      <h2 id="applying-as-a-mentor">Applying as a Mentor</h2>
+      <p>Thank you for your interest!</p>
+      <p>
+        Please contact us on our mailing list with your idea,
+        <a class="mailto" href="mailto:ubuntu-soc@lists.ubuntu.com">
+          ubuntu-soc@lists.ubuntu.com
+        </a>,
+        and leave your name and idea on the
+        <a href="https://wiki.ubuntu.com/GoogleSoC2016/Ideas"
+          class="p-link--external">
+          Ideas page
+        </a>
+        for the current Summer of Code.
+      </p>
+      <h3 id="mentoring-resources">Mentoring Resources</h3>
+      <ul class="list-ubuntu">
+        <li>
+          <p>
+            <a href="http://en.flossmanuals.net/gsocmentoring/"
+              class="p-link--external">
+              Guide to mentoring
+            </a>
+          </p>
+        </li>
+        <li>
+          <p>
+            <a href="http://people.gnome.org/%7Efederico/docs/summer-of-code-mentoring-howto/"
+              class="p-link--external">
+              Federico Mena-Quintero&rsquo;s Mentoring How-To
+            </a>
+          </p>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+{% endblock content %}

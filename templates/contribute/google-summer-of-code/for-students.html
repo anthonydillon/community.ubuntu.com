@@ -1,0 +1,246 @@
+{% extends "contribute/base.html" %}
+
+{% block title %}For students | Google Summer of Code | Contribute {% endblock %}
+
+{% block second_level_nav_items %}
+<div class="strip-inner-wrapper">
+    {% include "templates/_nav_breadcrumb.html" with section_title="Contribute" subsection_title="Google Summer of Code" page_title="For students" tertiary="true" %}
+</div>
+{% endblock second_level_nav_items %}
+
+{% block content %}
+<section class="p-strip--accent is-deep">
+  <div class="row">
+    <div class="col-7">
+      <h1 id="information-for-students">Information for students</h1>
+      <p>
+        Ubuntu is applying as a mentoring organization in
+        <a href="/contribute/google-summer-of-code/"
+          class="p-link--strong"
+          style="color: #fff;">
+          Google Summer of Code 2016
+        </a>
+      </p>
+      <p>
+        We don&rsquo;t know if we will be able to accept students, yet, but
+        you are welcome to have a look around. Once organizations are accepted,
+        we hope to see you here. Thank you for your interest.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="p-strip is-deep is-bordered">
+  <div class="row">
+    <div class="col-12">
+      <h2 id="applying-as-a-student">Applying as a student</h2>
+      <p>
+        Are you an eligible student for GSoC 2016? If we are accepted as an
+        organisation, you can apply as a student, with a proposal for your own
+        project, or perhaps one of our
+        <a href="https://wiki.ubuntu.com/GoogleSoC2016/Ideas"
+          class="p-link--external">
+          suggestions
+        </a>.
+      </p>
+      <p>
+        Applications should be detailed and give us enough information to be
+        able to make an intelligent selection. We like to choose students who
+        are enthusiastic about their projects and are able to commit the time
+        and energy required to make them successful. Please remember that being
+        selected is a privilege and a great opportunity. If your project goes
+        really well, your code might be included in Ubuntu.
+      </p>
+      <ul class="p-list--divided">
+        <li class="p-list__item is-ticked">
+          <a class="p-link--external" href="http://drupal.org/node/59037">
+            Drupal&rsquo;s How To Write A Summer of Code Application
+          </a>
+        </li>
+        <li class="p-list__item is-ticked">
+          <a href="http://www.flossmanuals.net/gsocstudentguide/"
+            class="p-link--external">
+            GSoC Student Guide
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="p-strip--light is-deep is-bordered">
+  <div class="row">
+    <div class="col-12">
+      <h2 id="things-to-consider">Things to consider</h2>
+      <ul>
+        <li>
+          <p><strong>You should know how to program already.</strong> We use a mix
+          of languages including Qt/QML, Python, C and C++.</p>
+        </li>
+        <li>
+          <p>If your project involves a UI,
+          <strong>you should know the toolkit.</strong></p>
+        </li>
+        <li>
+          <p><strong>It really helps to have a working knowledge of Ubuntu</strong>
+          , but we&rsquo;re thrilled to mentor open-minded students who are new
+          to Ubuntu. Of course, Ubuntu is a big thing, so we recommend you take
+          some time to familiarize yourself with the operating system if you
+          haven&rsquo;t already, as well as our community and its working
+          structure. That will be an asset for your application and your
+          project.</p>
+        </li>
+        <li>
+          <p>Relative to the whole job market, not many people have the sorts of
+          skills Ubuntu hacking will give you. Doing any serious work on Ubuntu
+          will not only make you a more confident developer, <strong>it will
+          look great on your CV/resume.</strong></p>
+        </li>
+        <li>
+          <p><strong>Don&rsquo;t feel you have to use one of the</strong>
+          <a href="https://wiki.ubuntu.com/GoogleSoC2016/Ideas"
+            class="p-link--external">
+            listed ideas
+          </a>,
+          or even that they&rsquo;re necessarily good projects to work on.
+          People just add them as they think of good beginner projects. In
+          fact, a custom project proposal is likely to be <em>more</em>
+          impressive, as it shows you&rsquo;ve put time into researching the
+          project and getting familiar with its needs.</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="p-strip is-deep is-bordered">
+  <div class="row">
+    <div class="col-12">
+      <h2 id="how-to-succeed">How to succeed</h2>
+      <ul>
+        <li>
+          <p><strong>Don&rsquo;t overbook yourself.</strong> Working on your
+          Summer of Code project should be your main activity for the entire
+          summer. You&rsquo;ll have a lot to learn before you will get to the
+          point where you can begin coding your project, and the projects are
+          all non-trivial. We will provide you with amazing support from the
+          mentors and community, but it is up to you to make sure that you can
+          focus on your project.</p>
+        </li>
+        <li>
+          <p><strong>Your mentor is here to help you.</strong> Don&rsquo;t be
+          afraid to ask the difficult questions, or even the easy ones.</p>
+        </li>
+        <li>
+          <p>All Ubuntu participants in the Summer of Code program are
+          subscribed to the
+          <a href="http://lists.ubuntu.com/mailman/listinfo/ubuntu-soc"
+            class="p-link--external">
+            ubuntu-soc
+          </a>
+          mailing list. This list is an excellent place to ask for help,
+          <strong>discuss ideas or shout to the world</strong> about how your
+          project is going.</p>
+        </li>
+        <li>
+          <p><strong>Submit progress reports early and often.</strong> Use
+          these to honestly reflect on how well you are doing towards your
+          goals, and make adjustments to your project plan to match.</p>
+        </li>
+        <li>
+          <p><strong>Get your code public as soon as you can</strong>, ideally
+          starting with the empty directory you start in. Make your changes
+          public, often.</p></li>
+        <li>
+          <p><strong>You need to submit a completed spec at the end of the
+          project.</strong> It is best if you use the wiki as you go along to
+          make sure you capture as much relevant information as possible.
+          See
+          <a href="https://wiki.ubuntu.com/SpecLifeCycle"
+            class="p-link--external">
+            SpecLifeCycle
+          </a>
+          for details on how to write a good spec. If you project does not yet
+          have a spec use the
+          <a href="https://wiki.ubuntu.com/SpecTemplate"
+            class="p-link--external">
+            SpecTemplate
+          </a>
+          to create one. Don&rsquo;t forget to make sure your spec is
+          registered as a
+          <a href="https://blueprints.launchpad.net/ubuntu"
+            class="p-link--external">
+            blueprint
+          </a>.</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="p-strip--light is-deep">
+  <div class="row">
+    <div class="col-8">
+      <h2 id="writing-your-application-and-proposal">
+        Writing your application and proposal
+      </h2>
+      <ul class="p-list--divided">
+        <li class="p-list__item">
+          <h4 class="p-heading--five">Describe your project</h4>
+          <p>
+            Write simply and concisely, and describe the project in your own
+            words.
+          </p>
+        </li>
+        <li class="p-list__item">
+          <h4 class="p-heading--five">Put a word about your skills</h4>
+          <p>
+            Include some evidence that you are a good programmer. We love to
+            see past projects you have worked on, but just some background
+            information is good enough.
+          </p>
+        </li>
+        <li class="p-list__item">
+          <h4 class="p-heading--five">Link to existing contributions</h4>
+          <p>
+            If you have already submitted patches to Ubuntu implementing part
+            of your project, please link to them from the proposal.
+          </p>
+        </li>
+        <li class="p-list__item">
+          <h4 class="p-heading--five">Get feedback</h4>
+          <p>
+            Consider discussing your proposal in advance, through
+            <a href="https://lists.ubuntu.com/"
+              class="p-link--external">
+              mailing lists
+            </a>
+            and
+            <a href="https://wiki.ubuntu.com/IRC/ChannelList"
+              class="p-link--external">
+              IRC
+            </a>,
+            to get feedback from the Ubuntu community.
+          </p>
+        </li>
+      </ul>
+    </div>
+    <div class="col-4">
+      <div class="p-card">
+        <h3 id="need-project-ideas">Need project ideas?</h3>
+        <p>
+          The
+          <a href="https://wiki.ubuntu.com/GoogleSoC2016/Ideas"
+            class="p-link--external">
+            Ideas and Mentors page
+          </a>
+          is full of suggestions. Pick one of those and research it, or do
+          something completely different. Whatever you propose, we&rsquo;re
+          excited to have you.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% endblock content %}
