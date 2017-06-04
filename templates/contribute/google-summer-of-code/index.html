@@ -1,0 +1,91 @@
+{% extends "contribute/base.html" %}
+
+{% block title %}Google Summer of Code | Contribute {% endblock %}
+
+{% block second_level_nav_items %}
+<div class="strip-inner-wrapper">
+    {% include "templates/_nav_breadcrumb.html" with section_title="Contribute" page_title="Google Summer of Code" %}
+</div>
+{% endblock second_level_nav_items %}
+
+{% block content %}
+<section class="p-strip-light is-deep u-no-padding--bottom">
+  <div class="row u-equal-height" style="background-image: url('https://summerofcode.withgoogle.com/static/img/mountains-landscape.svg'); background-repeat: no-repeat; background-position: 100% 109%;">
+    <div class="col-7">
+      <h1 id="Google_Code_In">Google Summer of Code</h1>
+      <p>Google Summer of Code (GSOC) is a opportunity for university aged students aged 18+ to learn about and participate in open source communities. The contest runs from <strong>May &#8211; August</strong> each year, but the timeline for applying begins earlier.</p>
+      <p>&nbsp;</p>
+    </div>
+  </div>
+</section>
+
+<section class="p-strip is-deep" style="background-color: #253a52; background-image: url('https://assets.ubuntu.com/v1/18c51edd-canonical-bulb.png'); background-repeat: no-repeat; background-position: -61% 192%;">
+  <div class="row">
+    <div class="col-12" style="color: white !important;">
+      <h2>Google Summer Of Code 2016</h2>
+      <h3>Ubuntu applied as a mentoring organization, however we were NOT accepted.</h3>
+      <p><b>Many thanks to all of the mentors and students who expressed interest in working on Ubuntu projects this year! We hope to work with you in a future GSOC.</b></p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="p-card--highlighted">
+      <h3 class="p-card__title">I want to be a student</h3>
+      <p class="p-card__content">We trust you will enjoy working on Ubuntu. Welcome to the community.</p>
+      <p class="p-card__content">The following section will help you making sure you can work with Ubuntu as your project.</p>
+      <p class="p-card__footer"><a href="for-students/" class="p-button--brand">How to become a student for Ubuntu</a></p>
+    </div>
+    <div class="p-card--highlighted">
+      <h3 class="p-card__title">I want to be a mentor</h3>
+      <p>Community members are needed to help create projects and mentor students.</p>
+      <p>As part of mentoring, you will work <strong>1 on 1</strong> with a student to develop the project. You will also serve as an ambassador for ubuntu to help connect the student with the rest of the community.</p>
+      <p class="p-card__footer"><a href="for-mentors/" class="p-button--brand">Learn more about becoming a mentor</a></p>
+    </div>
+  </div>
+</section>
+
+<section class="p-strip--image is-light is-deep is-bordered" style="background-image: url('http://assets.ubuntu.com/v1/8b907c80-iot-developers-hero.jpg?q=60&amp;w=984'); background-position: center;">
+  <div class="row">
+    <div class="col-5">
+      <h2>A few projects ideas</h2>
+      <h2>to get you started</h2>
+      <ul class="p-list">
+        <li class="p-list__item">Implement a Vulkan renderer for Mir</li>
+        <li class="p-list__item">Create a Django webapp for Ubuntu on Air</li>
+        <li class="p-list__item">Ubuntu Core media center based on Kodi</li>
+        <li class="p-list__item">Calendar app: Add iCalendar support</li>
+      </ul>
+      <p><a class="p-button--brand" href="https://wiki.ubuntu.com/GoogleSoC2016/Ideas">Browse all project ideas</a></p>
+    </div>
+  </div>
+</section>
+
+<section class="p-strip--light is-bordered is-deep">
+  <div class="row">
+    <div class="col-12">
+      <p>For full details, including the timeline, see the <a href="https://developers.google.com/open-source/gsoc/">Google Summer of Code website</a> and <a href="https://developers.google.com/open-source/gsoc/faq">Check out Google&#8217;s GSOC FAQ</a>.</p>
+      <h3>Contact</h3>
+      <p>If you want to discuss an idea, or if you have any concerns or suggestions, you are welcome to send a message to our mailing list, <a href="mailto:ubuntu-soc@lists.ubuntu.com">ubuntu-soc@lists.ubuntu.com</a>.</p>
+      <p>You can also reach us on our IRC channel, <a href="irc://irc.freenode.org/#ubuntu-google">#ubuntu-google on freenode</a></p>
+    </div>
+  </div>
+</section>
+
+<section class="p-strip is-deep">
+  <div class="row">
+    <div class="col-6">
+      <h3>Previous participations</h3>
+      <p>Ubuntu has taken an active role in GSOC several times in the past and provided support and guidance for many contributions to the wider open source community:</p>
+      <ul class="p-list">
+        <li class="p-list__item"><a href="https://wiki.ubuntu.com/GoogleSoC2013">GSOC 2013</a></li>
+        <li class="p-list__item"><a href="https://wiki.ubuntu.com/GoogleSoC2010">GSOC 2010</a></li>
+        <li class="p-list__item"><a href="https://wiki.ubuntu.com/GoogleSoC2007">GSOC 2007</a></li>
+        <li class="p-list__item"><a href="https://wiki.ubuntu.com/GoogleSoC2006">GSOC 2006</a></li>
+      </ul>
+    </div>
+    <div class="col-6">
+      <img src="https://assets.ubuntu.com/v1/8d5f669e-DARWIN_2.png?q=60&amp;w=550" alt="" />
+    </div>
+  </div>
+</section>
+
+{% endblock content %}
