@@ -1,0 +1,29 @@
+@mixin community-p-breadcrumbs {
+  .p-breadcrumbs {
+
+    .nav-secondary__menu,
+    .nav-tertiary__menu {
+      display: inline-block;
+      position: relative;
+      margin-left: 1.5rem;
+
+      ::before {
+        content: '\203A';
+        font-weight: 400;
+        color: #666;
+        left: -0.75rem;
+        position: absolute;
+        top: 0;
+      }
+
+      .p-inline-list__link  {
+        @extend .p-breadcrumbs__link;
+      }
+    }
+  }
+
+  .p-nav-secondary {
+    padding: $sp-x-small 0;
+    border-bottom: 1px solid $color-mid-light;
+  }
+}

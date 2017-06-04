@@ -6,5 +6,7 @@ $color-brand: #e95420;
 
 // local patterns
 @import 'patterns_navigation';
+@import 'patterns_breadcrumbs';
 @include community-p-navigation;
+@include community-p-breadcrumbs;
 

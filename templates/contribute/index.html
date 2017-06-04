@@ -1,4 +1,4 @@
-{% extends "internet-of-things/base_things-v1.html" %}
+{% extends "contribute/base.html" %}
 
 {% block title %}Ubuntu for the Internet of Things{% endblock %}
 
@@ -6,7 +6,7 @@
 {% block extra_body_class %}internet-of-things-overview{% endblock %}
 
 {% block second_level_nav_items %}
-{% include "templates/_nav_breadcrumb-v1.html" with section_title="IoT" page_title="Overview" %}
+{% include "templates/_nav_breadcrumb.html" with section_title="Contribute" page_title="Overview" %}
 {% endblock second_level_nav_items %}
 
 {% block content %}
@@ -215,7 +215,5 @@
     </div>
   </div>
 </div>
-
-{% include "shared-v1/contextual_footers/_contextual_footer.html"  with first_item="_iot_developers" second_item="_iot_newsletter_signup" third_item="_iot_further_reading" %}
 
 {% endblock content %}
