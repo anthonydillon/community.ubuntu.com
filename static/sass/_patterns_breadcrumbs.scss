@@ -2,11 +2,16 @@
   .p-breadcrumbs {
     display: flex;
 
+    &__item {
+      margin-bottom: 0;
+    }
+
+    .second-level-nav,
     .nav-secondary__menu,
     .nav-tertiary__menu {
       display: inline-block;
       position: relative;
-      margin-left: 1.5rem;
+      margin-left: 1.7rem;
 
       :first-of-type::before {
         content: '\203A';
@@ -21,10 +26,18 @@
         @extend .p-breadcrumbs__link;
       }
     }
+
+    .second-level-nav {
+      margin-left: 0;
+    }
+  }
+
+  .second-level-nav {
+    display: inline-block;
   }
 
   .p-nav-secondary {
-    padding: $sp-x-small 0;
+    padding: $sp-small 0;
     border-bottom: 1px solid $color-mid-light;
   }
 }

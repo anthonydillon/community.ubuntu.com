@@ -2,6 +2,10 @@
   .p-navigation {
     background-color: $color-brand;
 
+    &__link:hover {
+      text-decoration: none !important;
+    }
+
     @media screen and (min-width: $breakpoint-navigation-threshold) {
 
       &__link {
