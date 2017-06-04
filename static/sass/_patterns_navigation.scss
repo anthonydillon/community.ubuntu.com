@@ -1,0 +1,12 @@
+@mixin community-p-navigation {
+  .p-navigation {
+    background-color: $color-brand;
+
+    @media screen and (min-width: $breakpoint-navigation-threshold) {
+      &__links,
+      &__link {
+        border-color: $color-x-light !important;
+      }
+    }
+  }
+}
