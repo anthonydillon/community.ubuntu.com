@@ -1,5 +1,6 @@
 @mixin community-p-breadcrumbs {
   .p-breadcrumbs {
+    display: flex;
 
     .nav-secondary__menu,
     .nav-tertiary__menu {
@@ -7,7 +8,7 @@
       position: relative;
       margin-left: 1.5rem;
 
-      ::before {
+      :first-of-type::before {
         content: '\203A';
         font-weight: 400;
         color: #666;
