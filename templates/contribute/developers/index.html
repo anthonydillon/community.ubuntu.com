@@ -1,0 +1,65 @@
+{% extends "contribute/base.html" %}
+
+{% block title %}Developers | Contribute {% endblock %}
+
+{% block second_level_nav_items %}
+<div class="strip-inner-wrapper">
+    {% include "templates/_nav_breadcrumb.html" with section_title="Contribute" page_title="Developers" tertiary="true" %}
+</div>
+{% endblock second_level_nav_items %}
+
+{% block content %}
+<section class="p-strip is-deep">
+  <div class="row">
+    <div class="col-8">
+      <h1>Developers</h1>
+      <p>
+        Do you love Ubuntu like we do? You are interested in development in
+        general? You enjoy detective work? You don&rsquo;t mind reading a bit of
+        documentation and you are a team player?</p>
+      <p>
+        Ubuntu is developed in an open fashion where everybody is welcome to
+        contribute. This means you can fix an issue, get your change reviewed
+        by an Ubuntu developer and get millions of people to benefit from your
+        work.
+      </p>
+      <p><strong>What are you interested in?</strong></p>
+      <p>Many kinds of activities make up Ubuntu Development. There are:</p>
+      <ul class="p-list">
+        <li class="p-list__item">
+          <a href="/contribute/developers/writings-apps-for-ubuntu/">
+            Writing apps for Ubuntu</a>.
+        </li>
+        <li class="p-list__item">
+          <a href="/contribute/developers/package-maintenance/">
+            Maintenance of packages</a>,
+          which is a lot about acting as an ambassador between the Ubuntu
+          project and others, keeping the packages up to date and without bugs.
+          Ensuring packages are well-integrated into Ubuntu is of great
+          importance.
+        </li>
+        <li class="p-list__item">
+          <a href="/contribute/developers/ubuntu-on-all-devices/">
+            Work on Ubuntu for all devices</a>,
+          the new interface family designed to work beautifully and easily
+          across many form-factors.
+        </li>
+        <li class="p-list__item">
+          <a href="/contribute/developers/working-on-core-parts-of-ubuntu/">
+            Working on core parts of Ubuntu</a>.
+          Many free software projects were born within the Ubuntu project and
+          form the basis of Ubuntu and other distributions.
+        </li>
+      </ul>
+      <p>
+        Others work on the integration of certain parts of Ubuntu, like the
+        <a href="https://wiki.ubuntu.com/One%20Hundred%20Papercuts"
+          class="p-link--external">
+          100 Papercuts Project</a>,
+        who try to make the general user experience of Ubuntu a pleasure.
+      </p>
+    </div>
+  </div>
+</section>
+
+{% endblock content %}
