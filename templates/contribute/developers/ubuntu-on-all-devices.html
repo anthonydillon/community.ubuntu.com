@@ -1,0 +1,82 @@
+{% extends "contribute/base.html" %}
+
+{% block title %}Writing apps for Ubuntu | Developers | Contribute {% endblock %}
+
+{% block second_level_nav_items %}
+<div class="strip-inner-wrapper">
+    {% include "templates/_nav_breadcrumb.html" with section_title="Contribute" subsection_title="Developers" page_title="Writing apps for Ubuntu" tertiary="true" %}
+</div>
+{% endblock second_level_nav_items %}
+
+{% block content %}
+<section class="p-strip--light is-deep is-bordered">
+  <div class="row">
+    <div class="col-8">
+      <img alt="" src="https://assets.ubuntu.com/v1/ae0058c7-devices-family.png">
+      <h1 id="Ubuntu-for-phones-tablets-desktops-tvs">
+        Ubuntu for phones/tablets/desktops/TVs/…
+      </h1>
+      <p>
+        We want Ubuntu to be great across all kinds of devices &mdash; a great
+        phone and tablet experience. It is an open source platform which will
+        power a wide range of devices. In no time it has attracted an
+        enthusiastic and vibrant community, which works both on the platform
+        itself and porting it to new devices.
+      </p>
+      <p>
+        If you have any questions, you can easily get them answered either by
+      </p>
+      <ul class="p-list">
+        <li class="p-list__item">
+          joining us on IRC in
+          <a href="http://webchat.freenode.net/?channels=ubuntu-touch"
+            class="p-link--external">
+            #ubuntu-touch on irc.freenode.net
+          </a> and/or
+        </li>
+        <li class="p-list__item">
+          joining our mailing list by joining the
+          <a href="https://launchpad.net/~ubuntu-phone/+join"
+            class="p-link--external">
+            ubuntu-phone team on Launchpad
+          </a> and leaving the &ldquo;Subscribe me to the team&rsquo;s mailing list&rdquo; option checked.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="p-strip is-deep is-bordered">
+  <div class="row">
+    <div class="col-8">
+      <h2 id="porting">Porting</h2>
+      <p>
+        We want to
+        <a href="https://wiki.ubuntu.com/Touch/Porting"
+          class="p-link--external">
+          port Ubuntu
+        </a> to all kinds of devices. If you have experience in porting code
+        to Android devices or are generally knowledgeable in terms of porting,
+        working with the Kernel and other core parts of a distribution, this
+        might be interesting to you.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="p-strip is-deep">
+  <div class="row">
+    <div class="col-8">
+      <h2 id="ubuntu-platform">Ubuntu platform</h2>
+      <p>
+        You can very easily help keep
+        <a href="https://wiki.ubuntu.com/Touch/Contribute"
+          class="p-link--external">
+          Ubuntu&rsquo;s platform
+        </a> moving by testing it and reporting bugs or by getting involved in
+        writing and fixing its apps and infrastructure bits.
+      </p>
+    </div>
+  </div>
+</section>
+
+{% endblock content %}
