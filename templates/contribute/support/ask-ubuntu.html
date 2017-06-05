@@ -1,0 +1,130 @@
+{% extends "contribute/base.html" %}
+
+{% block title %}Ask Ubuntu | Support | Contribute {% endblock %}
+
+{% block second_level_nav_items %}
+<div class="strip-inner-wrapper">
+    {% include "templates/_nav_breadcrumb.html" with section_title="Contribute" subsection_title="Support" page_title="Ask Ubuntu" tertiary="true" %}
+</div>
+{% endblock second_level_nav_items %}
+
+{% block content %}
+<section class="p-strip--light is-deep is-bordered">
+  <div class="row">
+    <div class="col-8">
+      <h1>Ask Ubuntu</h1>
+      <p>
+        Ask Ubuntu is different than web forums, mailing lists, and IRC in
+        that instead of chronologically solving a problem you solve it via
+        editing and updating content, even if you haven&rsquo;t written it.
+        As such there are always things that can be improved on the site to
+        keep the quality and freshness improving over time. 95% of the
+        traffic to the site is from search engines, so constantly reviewing
+        content to be correct is important.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="p-strip is-deep">
+  <div class="row">
+    <div class="col-8">
+      <h2>Get started</h2>
+      <p>
+        Ask Ubuntu goes by the concept of &ldquo;reputation&rdquo; to give you
+        access to different parts of the site. So, like a video game, you need
+        to &ldquo;unlock&rdquo; certain privileges, which are earned by gaining
+        reputation, which is awarded to you by peers when participating in the
+        site. The more reputation you earn the more the community trusts you,
+        and the more things you&rsquo;ll be allowed to accomplish on the site.
+      </p>
+      <p>
+        The best way to get started is to read the
+        <a href="https://askubuntu.com/tour" class="p-link--external">
+          Ask Ubuntu guide</a>.
+        After that you can get started reviewing:
+        <a href="https://askubuntu.com/unanswered" class="p-link--external">
+          Unanswered questions</a>,
+        <a href="https://askubuntu.com/questions?sort=faq"
+          class="p-link--external">
+          existing Frequently Asked Questions</a> and the
+        <a href="https://askubuntu.com/questions/greatest-hits"
+          class="p-link--external">
+          Greatest Hits</a> for quality and freshness.
+      </p>
+      <h2 id="documentation-resources">Documentation resources</h2>
+      <ul>
+        <li>
+          <p>
+            Start with the
+            <a href="https://askubuntu.com/help" class="p-link--external">
+              Ask Ubuntu Help Center</a>
+          </p>
+        </li>
+        <li>
+          <p>
+            Here&rsquo;s a
+            <a href="http://meta.askubuntu.com/questions/257/how-does-ask-ubuntu-work?rq=1"
+              class="p-link--external">
+              comprehensive guide</a> on how to use the site.
+          </p>
+        </li>
+      </ul>
+      <h2 id="find-help">Find help</h2>
+      <ul>
+        <li>
+          <p>
+            Questions about the site can be posted on
+            <a href="https://meta.askubuntu.com" class="p-link--external">
+              meta.askubuntu.com</a>
+          </p>
+        </li>
+        <li>
+          <p>
+            or on
+            <a href="https://chat.stackexchange.com/rooms/201"
+              class="p-link--external">
+              chat</a>
+          </p>
+        </li>
+      </ul>
+      <h2 id="tips-and-tricks">Tips and tricks</h2>
+      <ul>
+        <li>
+          <p>
+            Answers that earn high upvotes frequently cross reference official
+            documentation, launchpad bug reports, and other official sources.
+            They are detailed when they need to be, and include screenshots and
+            step by step instructions. Any one can answer a question by pasting
+            in a command, a <em>great</em> answer brings in the knowledge a
+            user will need to teach themselves.
+          </p>
+        </li>
+        <li>
+          <p>
+            If you&rsquo;re not a technical user, concentrate on fixing the
+            post&rsquo;s structure &mdash; spelling, grammar, and so on. You
+            can do this on posts that you might not even understand
+            technically. Over time as you review content you&rsquo;ll start to
+            pick up technical details &mdash; one can learn a ton about Ubuntu
+            just by reviewing content for quality.
+          </p>
+        </li>
+        <li>
+          <p>
+            Most users don&rsquo;t understand the importance of being specific.
+            If you see a question with a generic title, like &ldquo;Firefox
+            problem&rdquo; or &ldquo;Wireless doesn&rsquo;t work&rdquo; you can
+            update the question to improve it with content from their body. So
+            &ldquo;Firefox Problem&rdquo; can become &ldquo;How do I get
+            Firefox to print?&rdquo; and &ldquo;Wireless doesn&rsquo;t
+            work&rdquo; can become &ldquo;How do I get a Broadcom BCM12345 to
+            work?&rdquo; &mdash; and so on.
+          </p>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+{% endblock content %}
