@@ -1,0 +1,118 @@
+{% extends "contribute/base.html" %}
+
+{% block title %}Package maintenance | Developers | Contribute {% endblock %}
+
+{% block second_level_nav_items %}
+<div class="strip-inner-wrapper">
+    {% include "templates/_nav_breadcrumb.html" with section_title="Contribute" subsection_title="Developers" page_title="Package maintenance" tertiary="true" %}
+</div>
+{% endblock second_level_nav_items %}
+
+{% block content %}
+<section class="p-strip--light is-deep is-bordered">
+  <div class="row">
+    <div class="col-8">
+      <h1>Package maintenance</h1>
+      <p>
+        We integrate all our documentation about development, our processes,
+        our tools and infrastructure into our
+        <a href="http://packaging.ubuntu.com/">
+          Development Guide
+        </a> to make it a pleasant read and useful resource. It is available
+        in several other languages too. Start with the following articles:
+      </p>
+      <ul class="p-list">
+        <li class="p-list__item">
+          <a href="http://packaging.ubuntu.com/html/introduction-to-ubuntu-development.html"
+            class="p-link--external">
+            Make yourself familiar with Ubuntu Development in general
+          </a>
+        </li>
+        <li class="p-list__item">
+          <a href="http://packaging.ubuntu.com/html/getting-set-up.html"
+            class="p-link--external">
+            Set up your development environment
+          </a>
+        </li>
+        <li class="p-list__item">
+          <a href="http://packaging.ubuntu.com/html/fixing-a-bug.html"
+            class="p-link--external">
+            Find out how to fix a bug in Ubuntu
+          </a>
+        </li>
+        <li class="p-list__item">
+          <a href="http://packaging.ubuntu.com/html/fixing-a-bug-example.html"
+            class="p-link--external">
+            Follow the tutorial for fixing a specific bug
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="p-strip is-deep is-bordered">
+  <div class="row">
+    <div class="col-8">
+      <h2>Get in touch</h2>
+      <p>
+        You will always find fellow Ubuntu developers who can help you if you
+        should get stuck somewhere. If you like real-time chat, you might want
+        to join
+        <a href="http://webchat.freenode.net/?channels=ubuntu-motu"
+          class="p-link--external">
+          #ubuntu-motu on irc.freenode.net
+        </a>. Should you prefer email, you can sign up for the
+        <a href="http://lists.ubuntu.com/ubuntu-motu"
+          class="p-link--external">
+          ubuntu-motu mailing list
+        </a> &mdash; especially if you have a problem which requires more
+        explanation, then this method of communication is likely to be of use.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="p-strip is-deep">
+  <div class="row">
+    <div class="col-8">
+      <h2>Stay up to date</h2>
+      <p>
+        Follow the
+        <a href="https://twitter.com/ubuntudev"
+          class="p-link--external">
+          @ubuntudev
+        </a> social media account to stay up to date on events, initiatives
+        and general news. We post regularly on
+        <a href="https://facebook.com/ubuntudev"
+          class="p-link--external">
+          Facebook
+        </a>,
+        <a href="https://twitter.com/ubuntudev"
+          class="p-link--external">
+          Twitter
+        </a>,
+        <a href="https://identi.ca/ubuntudev"
+          class="p-link--external">
+          identi.ca
+        </a> and
+        <a href="http://gplus.to/ubuntudev"
+          class="p-link--external">
+          Google+
+        </a>. We have a
+        <a href="https://plus.google.com/communities/105575949994995785067"
+          class="p-link--external">
+          Google+ community
+        </a> too.
+      </p>
+      <p>
+        Don&rsquo;t be shy to ask questions. We feel our documentation is
+        doing a good job already, but you will probably still have questions
+        in the beginning. Everybody on the team is very friendly and happy to
+        share their experience, so get involved and join us.
+      </p>
+    </div>
+  </div>
+</section>
+
+{% endblock content %}
