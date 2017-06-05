@@ -1,0 +1,66 @@
+{% extends "contribute/base.html" %}
+
+{% block title %}Writing apps for Ubuntu | Developers | Contribute {% endblock %}
+
+{% block second_level_nav_items %}
+<div class="strip-inner-wrapper">
+    {% include "templates/_nav_breadcrumb.html" with section_title="Contribute" subsection_title="Developers" page_title="Writing apps for Ubuntu" tertiary="true" %}
+</div>
+{% endblock second_level_nav_items %}
+
+{% block content %}
+<section class="p-strip--light is-deep is-bordered">
+  <div class="row">
+    <div class="col-8">
+      <h1>Writing apps for Ubuntu</h1>
+      <p>
+        If you are interested in developing apps that run on the Ubuntu
+        platform rather than contributing to the platform itself, head out to
+        the
+        <a href="https://developer.ubuntu.com/"
+          class="p-link--external">
+          App Developer Site
+        </a>. There you will find all the information and resources to get
+        started writing your first app in a matter of minutes:
+      </p>
+      <ul class="p-list">
+        <li class="p-list__item">
+          <a href="http://developer.ubuntu.com/start/"
+            class="p-link--external">
+            Learn about writing Ubuntu apps
+          </a> that run across devices and form factors
+        </li>
+        <li class="p-list__item">
+          Ask your
+          <a href="http://www.askubuntu.com/questions/ask?tags=mobile,application-development"
+            class="p-link--external">
+            development questions on Ask Ubuntu
+          </a>
+        </li>
+      </ul>
+      <p>
+        Follow the @ubuntuappdev social media account to stay up to date on
+        events, initiatives and general news. Online you can find the blog on
+        the <a href="http://developer.ubuntu.com/" class="p-link--external">
+          App Developer Site
+        </a>, our
+        <a href="https://plus.google.com/communities/111350780270925540549"
+          class="p-link--external">
+          Google+ community
+        </a>, or our
+        <a href="https://facebook.com/ubuntuappdev" class="p-link--external">
+          Facebook
+        </a>,
+        <a href="https://twitter.com/ubuntuappdev" class="p-link--external">
+          Twitter
+        </a> or
+        <a href="https://plus.google.com/u/0/111697084657487423167/posts"
+          class="p-link--external">
+          Google+ pages
+        </a>.
+      </p>
+    </div>
+  </div>
+</section>
+
+{% endblock content %}
