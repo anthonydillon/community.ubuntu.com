@@ -1,0 +1,56 @@
+{% extends "contribute/base.html" %}
+
+{% block title %}IRC | Support | Contribute {% endblock %}
+
+{% block second_level_nav_items %}
+<div class="strip-inner-wrapper">
+    {% include "templates/_nav_breadcrumb.html" with section_title="Contribute" subsection_title="Support" page_title="IRC" tertiary="true" %}
+</div>
+{% endblock second_level_nav_items %}
+
+{% block content %}
+<section class="p-strip--light is-deep is-bordered">
+  <div class="row">
+    <div class="col-8">
+      <h1>IRC</h1>
+      <p>
+        Internet Relay Chat is one of the older internet protocols, it allows
+        real time chat and is arranged in a series of rooms or channels. Each
+        channel has a particular topic and when you are talking in that channel
+        everyone else sees what you say. You can think of it as being like
+        twitter except hashtags are more important than followers &mdash; and
+        there are not so many cat pictures.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="p-strip is-deep">
+  <div class="row">
+    <div class="col-8">
+      <h2 id="get-started">Get started</h2>
+      <p>
+        You can join in on IRC with a web browser or dedicated IRC client,
+        there are several included in the Ubuntu repositories. Xchat is quite
+        nice. Our main channel is <tt>#ubuntu</tt> on <tt>irc.freenode.net</tt>
+        where we are very focused on answering support questions. For anything
+        other than support questions or answers we have an assortment of other
+        channels. In almost every country we have a LoCo team channel, you can
+        join <tt>#ubuntu-&lt;iso code of your country&gt;</tt> to jump into
+        that channel and start talking with people near you. A fairly
+        <a href="https://wiki.ubuntu.com/IRC/ChannelList"
+          class="p-link--external">
+          comprehensive list of our channels</a> is available. We have some
+        <a href="https://wiki.ubuntu.com/IRC/Guidelines"
+          class="p-link--external">
+          general guidelines</a> on how to use our channels and a
+        <a href="https://wiki.ubuntu.com/IRC/SupportersGuide"
+          class="p-link--external">
+          specific guide</a> for people offering to assist others with support
+        problems.
+      </p>
+    </div>
+  </div>
+</section>
+
+{% endblock content %}
