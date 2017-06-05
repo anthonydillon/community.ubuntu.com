@@ -1,0 +1,288 @@
+{% extends "contribute/base.html" %}
+
+{% block title %}Mailing lists | Contribute {% endblock %}
+
+{% block second_level_nav_items %}
+<div class="strip-inner-wrapper">
+    {% include "templates/_nav_breadcrumb.html" with section_title="Contribute" subsection_title="Support" page_title="Mailing lists" tertiary="true" %}
+</div>
+{% endblock second_level_nav_items %}
+
+{% block content %}
+<section class="p-strip--light is-deep is-bordered">
+  <div class="row">
+    <div class="col-8">
+      <h1 class="u-off-screen">Mailing lists</h1>
+      <h2 id="much-of-the-work-that-makes-Ubuntu">
+        Much of the work that makes Ubuntu a success happens on mailing lists
+      </h2>
+      <p>
+        You can subscribe to a list in normal or digest mode, or review the
+        archives for past discussions. Please read through some of the
+        guidelines below when using the mailing lists. The full list of Ubuntu
+        mailing lists can be found at
+        <a href="https://lists.ubuntu.com/" class="p-link--external">
+          lists.ubuntu.com</a>.
+      </p>
+      <p>
+        There is
+        <a href="/help-information/meeting-other-ubuntu-users/local-communities/">
+          local language support</a>
+        information for mailing lists and internet relay chat (IRC)
+        channels for non-English speaking users.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="p-strip is-deep">
+  <div class="row">
+    <div class="col-8">
+      <h3 id="announcement-only-lists">Announcement-only lists</h3>
+      <ul>
+        <li>
+          <p>
+            <strong>Ubuntu security announcement list: </strong>The
+            <a href="https://lists.ubuntu.com/mailman/listinfo/ubuntu-security-announce"
+              class="p-link--external">
+              ubuntu-security-announce</a>
+            receives only announcements of security updates to Ubuntu
+            releases. If you are an administrator for multiple machines, we
+            strongly recommend you subscribe to this list to be notified of
+            critical updates that may affect your system security.
+          </p>
+        </li>
+        <li>
+          <p>
+            <strong>Ubuntu announcement list: </strong>The
+            <a href="https://lists.ubuntu.com/mailman/listinfo/ubuntu-announce"
+              class="p-link--external">
+              ubuntu-announce</a>
+            list has very few emails (less than one a month, usually) and
+            will keep you up-to-date on new releases of Ubuntu, and significant
+            new developments.
+          </p>
+        </li>
+        <li>
+          <p>
+            <strong>Ubuntu news: </strong>The
+            <a href="https://lists.ubuntu.com/mailman/listinfo/ubuntu-news"
+              class="p-link--external">
+              ubuntu-news</a>
+            list is a low volume list, primarily for the Ubuntu Weekly News.
+          </p>
+        </li>
+      </ul>
+      <h3 id="developer-lists">Developer lists</h3>
+      <ul>
+        <li>
+          <p>
+            The
+            <a href="https://lists.ubuntu.com/mailman/listinfo/ubuntu-devel"
+              class="p-link--external">
+              ubuntu-devel</a>
+            mailing list is for discussions among Ubuntu developers about
+            their projects. This is a moderated mailing list.
+          </p>
+        </li>
+        <li>
+          <p>
+            The
+            <a href="https://lists.ubuntu.com/mailman/listinfo/ubuntu-devel-discuss"
+              class="p-link--external">
+              ubuntu-devel-discuss</a>
+            mailing list is for community discussion and suggestions about
+            the future development of Ubuntu.
+          </p>
+        </li>
+        <li>
+          <p>
+            The
+            <a href="https://lists.ubuntu.com#Package+Upload+and+Automatic+Notification+Lists"
+              class="p-link--external">
+              package upload and automatic notification</a>
+            mailing lists contain the archive upload notifications for
+            each version of Ubuntu. These lists are primarily used for Ubuntu
+            development.
+          </p>
+        </li>
+        <li>
+          <p>
+            The
+            <a href="https://lists.ubuntu.com/mailman/listinfo/ubuntu-motu"
+              class="p-link--external">
+              ubuntu-motu</a>
+            mailing list is for getting involved in packaging and
+            development on Ubuntu.
+          </p>
+        </li>
+      </ul>
+      <h3 id="mailing-list-etiquette">Mailing list etiquette</h3>
+      <p>
+        These guidelines are designed to keep the productivity of the Ubuntu
+        mailing lists at a high level. They represent the conventions currently
+        used by the majority of participants in the mailing lists, and should
+        be used as a frame of reference for mailing list etiquette.
+      </p>
+      <h3 id="summary">Summary</h3>
+      <ul>
+        <li>
+          <p>
+            Observe the
+            <a href="https://www.ubuntu.com/about/about-ubuntu/conduct"
+              class="p-link--external">
+              Ubuntu Code of Conduct</a>.
+          </p>
+        </li>
+        <li>
+          <p>
+            Before writing an email, consider whether it will further a
+            discussion which is relevant for the particular mailing list.
+          </p>
+        </li>
+        <li>
+          <p>
+            Observe the technical guidelines about emailing outlined in this
+            page.
+          </p>
+        </li>
+      </ul>
+      <h3 id="code-of-conduct">Code of Conduct</h3>
+      <p>
+        The Ubuntu Code of Conduct governs all interaction within the Ubuntu
+        community. Because mailing lists form an integral part of that
+        interaction, it is especially important to bear the Code of Conduct in
+        mind at all times. Mailing list users should
+        <a href="https://www.ubuntu.com/about/about-ubuntu/conduct"
+          class="p-link--external">
+          read the Code of Conduct in full</a>,
+        and if possible, should
+        <a href="https://launchpad.net/codeofconduct"
+          class="p-link--external">
+          digitally sign a copy</a>.
+      </p>
+      <p>
+        Fundamental aspects of the Code of Conduct relevant to mailing lists
+        include:
+      </p>
+      <ul class="p-list">
+        <li class="p-list__item is-ticked">Be considerate</li>
+        <li class="p-list__item is-ticked">Be respectful</li>
+        <li class="p-list__item is-ticked">Be collaborative</li>
+        <li class="p-list__item is-ticked">When you disagree, consult others</li>
+        <li class="p-list__item is-ticked">When you are unsure, ask for help</li>
+        <li class="p-list__item is-ticked">Step down considerately</li>
+        <li class="p-list__item is-ticked">Avoid flamewars, trolling, personal attacks, and repetitive arguments</li>
+      </ul>
+      <h3 id="topic">Topic</h3>
+      <p>
+        Every mailing list deals with a specific subject matter (a topic). It
+        is important to limit discussion to that topic so that the mailing list
+        remains productive. When writing to mailing lists, bear in mind that
+        your email may be sent to hundreds of people, who have signed up to the
+        mailing list for a specific reason, or interest. Avoid subjects which
+        are not relevant to the individual mailing list, and each time you
+        write an email, consider its relevance for the mailing list in
+        question. A good rule of thumb is that each email should contribute
+        positively to a relevant discussion.
+      </p>
+      <p>Specific examples:</p>
+      <ul class="p-list--divided">
+        <li class="p-list__item">
+          The <em>ubuntu-users</em> mailing list should be used for technical
+          support.
+        </li>
+        <li class="p-list__item">
+          The <em>ubuntu-devel</em> mailing list should be used for discussion
+          of the development of Ubuntu.
+        </li>
+      </ul>
+      <h3 id="technical-guidelines">Technical guidelines</h3>
+      <h4 id="proper-quoting">Proper quoting:</h4>
+      <p>
+        Proper quoting is very important on mailing lists, to ensure that it is
+        easy to follow the conversation. There are four fundamental rules:
+      </p>
+      <ul class="p-list">
+        <li class="p-list__item is-ticked">
+          When replying to an email, ensure that the email which you are
+          replying to is indented with a symbol such as &gt; or | (this is
+          usually done from the preferences of your email client &mdash; most
+          should do this by default).
+        </li>
+        <li class="p-list__item is-ticked">
+          When quoting, attribute the quoted text to the person who wrote it
+          (again, most email clients will do this by default). Be careful to
+          attribute the correct text to the correct person.
+        </li>
+        <li class="p-list__item is-ticked">
+          Write your email underneath the email which you are replying to.
+        </li>
+        <li class="p-list__item is-ticked">
+          Tailor your reply to fit the text which you are replying to. Do not
+          quote the whole of the previous email &mdash; remove any unnecessary
+          text. To avoid confusion, it&rsquo;s often a good idea to replace
+          removed text with a brief indication that something has been removed,
+          like <em>[snip]</em>.
+        </li>
+      </ul>
+      <h3 id="html-mail">HTML mail</h3>
+      <p>
+        Avoid sending emails in HTML format, if possible. Some people may find
+        it more difficult to read or reply to these emails. Also, HTML email
+        takes up more space, so people with restricted Internet access will be
+        happier to receive plain text emails.
+      </p>
+      <h3 id="threading">Threading</h3>
+      <p>
+        Many users read mailing lists by the thread. This means that when
+        reading, emails are placed in a tree structure according to the
+        subject. To permit this, email clients identify messages by a special
+        hidden &lsquo;header&rsquo; of the message. To assist those who read
+        mailing lists in this way:
+      </p>
+      <ul class="p-list">
+        <li class="p-list__item is-ticked">
+          Try to ensure that you use an email client which retains this
+          &lsquo;hidden&rsquo; part of the message. For example, avoid using
+          Outlook Express.
+        </li>
+        <li class="p-list__item is-ticked">
+          When replying to messages, use your email client&rsquo;s
+          <strong>Reply To List</strong> function, rather than
+          &lsquo;Reply&rsquo; or &lsquo;Reply To All&rsquo;. This is
+          <strong>Ctrl + L</strong> in <em>Evolution</em>, and
+          <strong>Shift + L</strong> in <em>Kmail</em> (Kubuntu&rsquo;s default
+          email client) and in <em>mutt</em> (a popular console email client).
+          If your email client does not have this function, ask for it to be
+          added. Mozilla&rsquo;s <em>Thunderbird</em> (Ubuntu&rsquo;s default
+          email client) does not have this function, but if you read the
+          mailing lists as a newsgroup in Thunderbird, you can simply use the
+          &ldquo;Reply&rdquo; function.
+        </li>
+        <li class="p-list__item is-ticked">
+          When starting a new subject, do not reply to a previous email from
+          the mailing list. If you do, your email may form part of a previous
+          thread. To start a new subject, use a clean email.
+        </li>
+        <li class="p-list__item is-ticked">
+          Replying to <em>digest</em> emails breaks the threading.
+        </li>
+      </ul>
+      <h4 id="changing-the-subject">Changing the subject</h4>
+      <p>
+        When a reply takes the email away from the original subject, change the
+        subject line in your email. This helps people reading the mailing list
+        to identify the most relevant emails for them.
+      </p>
+      <p>
+        When changing the subject, keep the original subject in brackets. For
+        example, if the original subject was &lsquo;Ubuntu rocks&rsquo;, your
+        subject should be &lsquo;Ubuntu could be made better (was Ubuntu
+        rocks)&rsquo;.
+      </p>
+    </div>
+  </div>
+</section>
+
+{% endblock content %}

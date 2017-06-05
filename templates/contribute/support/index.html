@@ -1,0 +1,66 @@
+{% extends "contribute/base.html" %}
+
+{% block title %}Support | Contribute {% endblock %}
+
+{% block second_level_nav_items %}
+<div class="strip-inner-wrapper">
+    {% include "templates/_nav_breadcrumb.html" with section_title="Contribute" page_title="Support" tertiary="true" %}
+</div>
+{% endblock second_level_nav_items %}
+
+{% block content %}
+<section class="p-strip--light is-deep">
+  <div class="row">
+    <div class="col-8">
+      <h1 id="support">Support</h1>
+      <p>
+        User support is one very beneficial way of contributing to Ubuntu. By
+        answering questions raised by the millions of users using Ubuntu, you
+        can help to solve their technical problems and at the same time learn
+        about Ubuntu. There are many ways to contribute to user support:
+      </p>
+      <ul>
+        <li>
+          <p>
+            <a href="/contribute/support/ask-ubuntu/">
+              Ask Ubuntu</a>:
+            Share your technical know-how with others by answering questions.
+          </p>
+        </li>
+        <li>
+          <p>
+            <a href="/contribute/support/ubuntu-forums/">
+              Ubuntu Forums</a>:
+            Join the Ubuntu Forums and help people in their problems and make
+            friends.
+          </p>
+        </li>
+        <li>
+          <p>
+            <a href="/contribute/support/launchpad-answers/">
+              Launchpad Answers (Ubuntu)</a>:
+            Help solve problems on Launchpad Answers, a place where Ubuntu
+            developers and testers are likely to hang out.
+          </p>
+        </li>
+        <li>
+          <p>
+            <a href="/contribute/support/irc/">
+              Internet Relay Chat (IRC)</a>:
+            Help people navigate the Ubuntu world by joining an Internet Relay
+            Chat such as #ubuntu.
+          </p>
+        </li>
+        <li>
+          <p>
+            <a href="/help-information/meeting-other-ubuntu-users/">
+              Local Communities (LoCo)</a>:
+            Join an Ubuntu Local Community team and help people near you.
+          </p>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+{% endblock content %}
