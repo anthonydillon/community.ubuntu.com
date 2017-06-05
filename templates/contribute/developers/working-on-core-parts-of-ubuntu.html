@@ -1,0 +1,162 @@
+{% extends "contribute/base.html" %}
+
+{% block title %}Writing apps for Ubuntu | Developers | Contribute {% endblock %}
+
+{% block second_level_nav_items %}
+<div class="strip-inner-wrapper">
+    {% include "templates/_nav_breadcrumb.html" with section_title="Contribute" subsection_title="Developers" page_title="Writing apps for Ubuntu" tertiary="true" %}
+</div>
+{% endblock second_level_nav_items %}
+
+{% block content %}
+<section class="p-strip--light is-deep is-bordered">
+  <div class="row">
+    <div class="col-8">
+      <h1 id="working-on-core-parts-of-ubuntu">Working on core parts of Ubuntu</h1>
+      <div class="p-heading-icon">
+        <div class="p-heading-icon__header">
+          <img class="p-heading-icon__img"
+            src="https://assets.ubuntu.com/v1/2fbd96a8-image-project-mir-icon.png" />
+          <h2 class="p-heading-icon__title" id="mir">Mir</h2>
+        </div>
+      </div>
+      <p>
+        The Mir display server project is a truly collaborative Open Source
+        project. For us to build an awesome user experience, scaling across
+        and dynamically adapting to different form factors, we need a variety
+        of skills and contributors who can bring them. This section of the our
+        wiki homepage explains how you can get involved. There are many ways to
+        get involved:
+      </p>
+      <ul>
+        <li>
+          If you are a fairly technical person, you might want to contribute to
+          <a href="http://unity.ubuntu.com/mir"
+            class="p-link--external">
+            Hacking or Testing
+          </a> (while Testing doesn&rsquo;t have to be technical, a deeper-dive
+          of testing is really helpful).
+        </li>
+        <li>
+          If you like
+          <a href="http://unity.ubuntu.com/mir"
+            class="p-link--external">
+            breaking things
+          </a>: Mir adheres to a test-driven development process and code
+          contributions in particular have to be accompanied by tests that
+          prove that a fix or a feature really does what it should. Over time,
+          as Mir evolves, the testing framework needs to become more and more
+          sophisticated. We are planning to rely on Autopilot and Cucumber to
+          implement full-stack and behavioural testing and we would love to see
+          contributions to either the test suites or the underlying
+          infrastructure to wire things up with Mir.
+        </li>
+      </ul>
+      <p>
+        Now you have an idea of how to help, click the sections above to find
+        out more. You should also join our communication channels through
+        <a href="https://lists.ubuntu.com/mailman/listinfo/Mir-devel"
+          class="p-link--external">
+          our mailing list
+        </a>, where we have email discussions; we also have a live chat IRC
+        channel in #ubuntu-mir on the freenode IRC network. Everyone is welcome
+        to join.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="p-strip is-deep is-bordered">
+  <div class="row">
+    <div class="col-8">
+      <div class="p-heading-icon">
+        <div class="p-heading-icon__header">
+          <img class="p-heading-icon__img"
+            src="https://assets.ubuntu.com/v1/6ac04b3b-image-project-unity-icon.png" />
+          <h2 class="p-heading-icon__title" id="unity">Unity</h2>
+        </div>
+      </div>
+      <ul class="p-list">
+        <li class="p-list__item">
+          Design: Unity is
+          <a href="http://unity.ubuntu.com/getinvolved/design/"
+            class="p-link--external">
+            driven by great design
+          </a>. Our community empowers great designers to do great work. Want
+          to help design Unity and its projects?
+        </li>
+        <li class="p-list__item">
+          <a href="http://unity.ubuntu.com/getinvolved/development/"
+            class="p-link--external">
+            Development
+          </a>: Unity is Open Source and we depend on our developer community
+          to implement great design and fix bugs, raising the quality of Unity
+          for our users.
+        </li>
+        <li class="p-list__item">
+          <a href="http://unity.ubuntu.com/getinvolved/testing/"
+            class="p-link--external">
+            Testing and Triage
+          </a>: Quality is a top priority for Unity. We need you to test the
+          latest builds and to triage our bug reports to help our developers
+          fix bugs faster.
+        </li>
+        <li class="p-list__item">
+          Translations:
+          <a href="http://unity.ubuntu.com/getinvolved/translations/"
+            class="p-link--external">
+            Unity in your language
+          </a>. This is our commitment, but we look to our global community to
+          make this dream a reality.
+        </li>
+      </ul>
+      <p>
+        You can join us on #ubuntu-unity on Freenode IRC. If you can&rsquo;t
+        find anyone in IRC then please send us a mail to the
+        <a href="https://launchpad.net/~unity-dev"
+          class="p-link--external">
+          mailing list
+        </a> instead.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="p-strip is-deep is-bordered">
+  <div class="row">
+    <div class="col-8">
+      <div class="p-heading-icon">
+        <div class="p-heading-icon__header">
+          <img class="p-heading-icon__img"
+            src="https://assets.ubuntu.com/v1/31c507a5-image-juju.svg" />
+          <h2 class="p-heading-icon__title" id="juju">Juju</h2>
+        </div>
+      </div>
+      <p>
+        If you&rsquo;re interested in Ubuntu Development but not packaging and
+        have technical skill in being a devop or system administrator you can
+        contribute to Ubuntu by submitting and improving Juju charms.
+      </p>
+      <p>
+        Juju charms are deployment and service orchestration scripts that
+        enable people to deploy services onto Ubuntu clouds on EC2, HP Cloud,
+        and OpenStack (among others). Since Juju charms can be written in any
+        language, it&rsquo;s a good way for the devops experts to share
+        deployment and management scripts with the community.
+      </p>
+      <p>
+        You can
+        <a href="https://jujucharms.com/docs/stable/getting-started"
+          class="p-link--external">
+          get started with Juju
+        </a> and check out our instructions for
+        <a href="https://jujucharms.com/docs/stable/developer-getting-started"
+          class="p-link--external">
+          writing a charm
+        </a> here.
+      </p>
+    </div>
+  </div>
+</section>
+
+{% endblock content %}
