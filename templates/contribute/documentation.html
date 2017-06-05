@@ -1,0 +1,127 @@
+{% extends "contribute/base.html" %}
+
+{% block title %}Contribute{% endblock %}
+
+{% block second_level_nav_items %}
+{% include "templates/_nav_breadcrumb.html" with section_title="Contribute" page_title="Overview" %}
+{% endblock second_level_nav_items %}
+
+{% block content %}
+<section class="p-strip--light is-deep is-bordered">
+  <div class="row">
+    <div class="col-8">
+      <h1 id="documentation">Documentation</h1>
+      <p>
+        A great way for you and for others who enjoy Ubuntu to get help is to
+        consult our documentation. The documentation team ensures that official
+        documentation resources are up to date, are consistent and focussed on
+        the most important topics. It&rsquo;s easy for you to get involved and
+        to share solutions to a particular problem or to check, proof-read and
+        test documents for accuracy.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="p-strip is-deep is-bordered">
+  <div class="row">
+    <div class="col-8">
+      <h2 id="getting-started">Getting started</h2>
+      <p>
+        If you want to help improve the documentation which is shipped with
+        each version of *buntu or, as regards the server guide, published on
+        the web only:
+      </p>
+      <ul>
+        <li>
+          Read the
+          <a href="https://wiki.ubuntu.com/DocumentationTeam/SystemDocumentation"
+            class="p-link--external">
+            System Documentation
+          </a> series of pages
+        </li>
+        <li>
+          This should put you into a position where you can contribute a number
+          of changes to the system documentation.
+        </li>
+        <li>
+          The team will review your contributions for you. It&rsquo;s important
+          that you apply the
+          <a href="https://wiki.ubuntu.com/DocumentationTeam/StyleGuide"
+            class="p-link--external">
+            documentation team style guide
+          </a>. You will slowly learn to work with Mallard/DocBook, Bazaar and
+          Launchpad.
+        </li>
+      </ul>
+      <p>
+        To fully join the team which writes the
+        <a href="https://help.ubuntu.com/community"
+          class="p-link--external">
+          Community Help Wiki
+        </a>:
+      </p>
+      <ul>
+      <li>
+        Simply read
+        <a href="https://help.ubuntu.com/community/WikiGuide"
+          class="p-link--external">
+          the Wiki Guide
+        </a> and get started on the wiki.
+      </li>
+      <li>
+        Once you made significant contributions to the help wiki by way of
+        edits to pages, you demonstrate an understanding of the issues that can
+        arise from deleting and renaming pages, and how to avoid them.
+      </li>
+      <li>
+        Also consider joining
+        <a href="https://lists.ubuntu.com/mailman/listinfo/ubuntu-doc"
+          class="p-link--external">
+          our mailing list
+        </a> or the #ubuntu-doc irc channel on the Freenode network.
+      </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="p-strip--light is-bordered">
+  <div class="row">
+    <div class="col-8">
+      <h2 id="documentation-resources">Documentation resources</h2>
+      <p>
+        All the team&rsquo;s work is subject to
+        <a href="https://wiki.ubuntu.com/DocumentationTeam/StyleGuide"
+          class="p-link--external">
+          our style guide
+        </a>.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="p-strip is-deep is-bordered">
+  <div class="row">
+    <div class="col-8">
+      <h2 id="where-to-find-help">Where to find help</h2>
+      <p>
+        Once you are more familiar with the team and its processes, you may
+        find that you are able to contribute more effectively with either the
+        Ubuntu Documentation Wiki Administrators team (if you wish to help with
+        maintenance of the wiki), or the Ubuntu Documentation Committers team
+        (if you wish to be able to push your changes directly to the system
+        documentation).
+      </p>
+      <p>
+        You can apply to join either of these teams by posting to the mailing
+        list and asking to be added. Please provide evidence that you satisfy
+        the requirements in this section. It&rsquo;s particularly helpful if
+        you can include links to concrete examples of your work, such as wiki
+        pages or patches.
+      </p>
+    </div>
+  </div>
+</div>
+
+{% endblock content %}
