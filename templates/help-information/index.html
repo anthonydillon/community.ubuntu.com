@@ -1,0 +1,92 @@
+{% extends "contribute/base.html" %}
+
+{% block title %}Help and information{% endblock %}
+
+{% block second_level_nav_items %}
+{% include "templates/_nav_breadcrumb.html" with section_title="Help and information" page_title="Overview" %}
+{% endblock second_level_nav_items %}
+
+{% block content %}
+<section class="p-strip--light is-deep is-bordered"><div class="row no-border">
+  <div class="row">
+    <div class="eight-col clearfix">
+      <h1 id="help-and-information">Help and information</h1>
+      <h2 id="documentation">Documentation</h2>
+      <p>
+        Our
+        <a href="https://help.ubuntu.com/" class="p-link--external">
+          official documentation</a> explains everything about Ubuntu, with
+        topics for beginners to experts alike.
+      </p>
+    </div>
+  </div>
+</section>
+<section class="p-strip is-deep">
+  <div class="row">
+    <div class="col-8">
+      <h2 id="support">Support</h2>
+      <p>
+        <a href="/contribute/support/ask-ubuntu/">Ask Ubuntu</a> and
+        <a href="/contribute/support/ubuntu-forums/">Ubuntu Forums</a> are
+        great sources of answers to common questions about installing,
+        troubleshooting and optimizing Ubuntu.
+      </p>
+      <p>
+        Ubuntu people near you can be a great wealth of help, tips and
+        information. Check out the
+        <a href="http://loco.ubuntu.com" class="p-link--external">
+          Ubuntu team portal</a> and contact (or join) a group near you.
+      </p>
+      <p>Do you want to chat with a person right now? Try logging into our
+        Internet Relay Chat (IRC) system where Ubuntu community participants
+        around the world help others find their way through the vastness of
+        Ubuntu. They can help you find what you are looking for:
+      </p>
+      <p>Some useful channels:</p>
+      <ul>
+        <li>
+          <p>
+            <a href="http://webchat.freenode.net/?channels=ubuntu"
+              class="p-link--external">
+              #ubuntu</a>
+          </p>
+        </li>
+        <li>
+          <p>
+            Find Ubuntu channels in your own language on the
+            <a href="http://loco.ubuntu.com/teams" class="p-link--external">
+              LoCo Team Portal</a>
+          </p>
+        </li>
+        <li>
+          <p>
+            Find more specific IRC channels in
+            <a href="https://wiki.ubuntu.com/IRC/ChannelList"
+              class="p-link--external">
+              our list</a>.
+          </p>
+        </li>
+      </ul>
+      <h2 id="community-blogs">Community blogs</h2>
+      <p>
+        <a href="http://planet.ubuntu.com/" class="p-link--external">
+          Planet Ubuntu
+        </a> is your window into the world, work and lives of Ubuntu developers
+        and contributors. Not everyone here writes about Ubuntu all the time,
+        but it&rsquo;s a good source of &ldquo;who&rsquo;s who&rdquo;
+        information about Ubuntu contributors.
+      </p>
+      <h2 id="news">News</h2>
+      <p>
+        <a href="/help-information/keeping-up-to-date/">Keep up-to-date</a>
+        with the official Ubuntu news at
+        <a href="http://fridge.ubuntu.com/" class="p-link--external">
+          The Fridge
+        </a> or read Ubuntu Weekly News &mdash; the community-created
+        newsletter.
+      </p>
+    </div>
+  </div>
+</section>
+
+{% endblock content %}

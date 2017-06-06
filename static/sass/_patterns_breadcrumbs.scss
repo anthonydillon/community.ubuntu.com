@@ -1,6 +1,8 @@
 @mixin community-p-breadcrumbs {
   .p-breadcrumbs {
-    display: flex;
+    @media screen and (min-width: $breakpoint-navigation-threshold) {
+      display: flex;
+    }
 
     &__item {
       margin-bottom: 0;

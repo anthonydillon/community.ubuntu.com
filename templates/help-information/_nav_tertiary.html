@@ -1,0 +1,15 @@
+<ul class="nav-tertiary__menu p-inline-list">
+  {% if level_2 == 'funding' %}
+    <li class="p-inline-list__item"><a class="p-inline-list__link {% if level_3 == 'reports' %}is-active{% endif %}" href="/help-information/funding/reports">Reports</a></li>
+  {% endif %}
+  {% if level_2 == 'finding-help' %}
+    <li class="p-inline-list__item"><a class="p-inline-list__link {% if level_3 == 'support' %}is-active{% endif %}" href="/help-information/finding-help/support">Support</a></li>
+  {% endif %}
+  {% if level_2 == 'keeping-up-to-date' %}
+    <li class="p-inline-list__item"><a class="p-inline-list__link {% if level_3 == 'news' %}is-active{% endif %}" href="/help-information/keeping-up-to-date/news">News</a></li>
+    <li class="p-inline-list__item"><a class="p-inline-list__link {% if level_3 == 'ubuntu-on-air' %}is-active{% endif %}" href="/help-information/keeping-up-to-date/ubuntu-on-air">Ubuntu on Air</a></li>
+  {% endif %}
+  {% if level_2 == 'meeting-other-ubuntu-users' %}
+    <li class="p-inline-list__item"><a class="p-inline-list__link {% if level_3 == 'local-communities' %}is-active{% endif %}" href="/help-information/meeting-other-ubuntu-users/local-communities">Local communities</a></li>
+  {% endif %}
+</ul>

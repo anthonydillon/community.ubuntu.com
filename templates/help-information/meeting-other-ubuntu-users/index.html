@@ -1,0 +1,69 @@
+{% extends "contribute/base.html" %}
+
+{% block title %}Meeting other Ubuntu users | Help and information{% endblock %}
+
+{% block second_level_nav_items %}
+{% include "templates/_nav_breadcrumb.html" with section_title="Help and information" page_title="Meeting other Ubuntu users" tertiary="true" %}
+{% endblock second_level_nav_items %}
+
+{% block content %}
+<section class="p-strip--image is-deep is-bordered"
+  style="background-image:url('https://assets.ubuntu.com/v1/9e8524db-meeting-other-ubuntu-users.jpg')">
+  <div class="row">
+    <div class="col-8">
+      <div class="p-card--overlay">
+        <h1 id="meeting-other-ubuntu-users">Meeting other Ubuntu users</h1>
+        <p>
+          When you are in the world of Ubuntu, you are never alone. Ubuntu is an
+          inviting project filled with friendly people. In fact, Ubuntu is even
+          more enjoyable when experienced with others.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="p-strip is-deep">
+  <div class="row">
+    <div class="col-8">
+      <h2 id="step-away-from-your-keyboard">Step away from your keyboard</h2>
+      <p>
+        Chances are, there&rsquo;s an Ubuntu local community (LoCo) near you
+        and people that you can meet in real life. Check out our
+        <a href="http://loco.ubuntu.com" class="p-link--external">
+          directory of Ubuntu community teams</a>
+        and check out an event near you.
+      </p>
+      <p>
+        Local Ubuntu community events are a lot of fun and can be a wealth of
+        information about Ubuntu. They can also be a great place to get help
+        locally. You will also find that you quickly find new friends here
+        amongst people who have the same passion as you.
+      </p>
+      <h2 id="meet-online">Meet online</h2>
+      <p>
+        Ubuntu contributors and enthusiasts can be a &ldquo;chatty&rdquo;
+        bunch. Many of them hang out on various Freenode IRC channels. Log in
+        with your favourite IRC software and join the conversation, or use
+        <a href="http://webchat.freenode.net/" class="p-link--external">
+          the web client</a>
+        to connect. There are also dedicated channels for development, bugs,
+        local community (LoCo) teams, accessibility and documentation. Take a
+        look at a list of our
+        <a href="https://wiki.ubuntu.com/IRC/ChannelList"
+          class="p-link--external">
+          current IRC channels</a>.
+      </p>
+      <p>
+        There&rsquo;s also a thriving Ubuntu online community on &mdash;
+        <a href="https://plus.google.com/communities/107299007624972266094"
+          class="p-link--external">
+          Google Plus</a> or &mdash; on our
+        <a href="http://ubuntuforums.org/" class="p-link--external">
+          online discussion groups (forums)
+        </a>
+      </p>
+    </div>
+  </div>
+</section>
+{% endblock content %}

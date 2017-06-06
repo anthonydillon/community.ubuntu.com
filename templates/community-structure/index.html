@@ -1,0 +1,93 @@
+{% extends "contribute/base.html" %}
+
+{% block title %}Community structure{% endblock %}
+
+{% block second_level_nav_items %}
+{% include "templates/_nav_breadcrumb.html" with section_title="Community structure" page_title="Overview" %}
+{% endblock second_level_nav_items %}
+
+{% block content %}
+<section class="p-strip--image is-deep"
+  style="background-image:url('https://assets.ubuntu.com/v1/209242ab-community-structure.jpg')">
+  <div class="row">
+    <div class="col-8">
+      <div class="p-card--overlay">
+        <h1>Community structure</h1>
+        <p>
+          The Ubuntu Community is an amazing place. It is a place filled with
+          amazing people, motivation, determination and a real sense of working
+          together. With the right people and the right ingredients almost
+          anything is possible.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="p-strip is-deep">
+  <div class="row">
+    <div class="col-8">
+      <h2>Worldwide community</h2>
+      <p>
+        A worldwide community spanning not just countries, but disciplines,
+        skills and more. Ubuntu&rsquo;s community is open and governed by the
+        independent Community Council.
+      </p>
+      <p>The governance landscape of Ubuntu looks like this:</p>
+      <ul class="p-list--divided">
+        <li class="p-list__item">
+          <a href="https://wiki.ubuntu.com/CommunityCouncil"
+             class="p-link--external">
+             Community Council</a> &mdash;
+          makes decisions about community processes and provides a place where
+          community members and other leaders can resolve conflict.
+        </li>
+        <li class="p-list__item">
+          <a href="https://wiki.ubuntu.com/TechnicalBoard"
+            class="p-link--external">
+            Technical Board</a> &mdash;
+          makes decisions on technical policy for the project. Note that the
+          Technical Board does not choose features and packages that go into
+          Ubuntu, that is something the wider community works on.
+        </li>
+        <li class="p-list__item">
+          <a href="https://wiki.ubuntu.com/LoCoCouncil"
+            class="p-link--external">
+            LoCo Council</a> &mdash;
+          leads the LoCo Teams community as well as reviewing and
+          reviewing Verified LoCo Team applications.
+        </li>
+        <li class="p-list__item">
+          <a href="https://wiki.ubuntu.com/IRC/IrcCouncil"
+            class="p-link--external">
+            IRC Council</a> &mdash;
+          leads the IRC and IRC operator community and ensures our IRC channels
+          are operating in a safe and respectful manner.
+        </li>
+        <li class="p-list__item">
+          <a href="https://wiki.ubuntu.com/ForumCouncil"
+            class="p-link--external">
+            Forums Council</a> &mdash;
+          leads the Ubuntu Forums community and it&rsquo;s moderators.
+        </li>
+        <li class="p-list__item">
+          <a href="https://wiki.ubuntu.com/Membership/Boards"
+            class="p-link--external">
+            Membership Boards</a> &mdash;
+          this is where community contributors can apply to
+          <a href="https://wiki.ubuntu.com/Membership"
+            class="p-link--external">
+            become Ubuntu members</a>.
+        </li>
+        <li class="p-list__item">
+          <a href="https://wiki.ubuntu.com/DeveloperMembershipBoard"
+            class="p-link--external">
+            Developer Membership Board</a> &mdash;
+          reviews applications for developers to get upload access to the
+          Ubuntu archives.
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+{% endblock content %}

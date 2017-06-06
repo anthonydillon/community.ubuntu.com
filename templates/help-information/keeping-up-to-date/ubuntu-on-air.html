@@ -1,0 +1,52 @@
+{% extends "contribute/base.html" %}
+
+{% block title %}Ubuntu On Air | Keeping up to date | Help and information{% endblock %}
+
+{% block second_level_nav_items %}
+{% include "templates/_nav_breadcrumb.html" with section_title="Help and information" subsection_title="Keeping up to date" page_title="Ubuntu On Air" tertiary="true" %}
+{% endblock second_level_nav_items %}
+
+{% block content %}
+<section class="p-strip--light is-deep is-bordered">
+  <div class="row">
+    <div class="col-8">
+      <h1 id="ubuntu-on-air">Ubuntu On Air</h1>
+      <p>
+        <a href="https://www.ubuntuonair.com" class="p-link--external">
+          Ubuntu On Air</a>
+        is an online show. It gives you an immediate glimpse into the world of
+        the people who make Ubuntu. It uses video streams (Google+ Hangouts on
+        Air), which can be watched live, but which are recorded as well.
+      </p>
+      <p>
+        You can
+        <a href="https://www.youtube.com/UbuntuOnAir" class="p-link--external">
+          check out the archive</a>
+        of all past sessions at YouTube. The topics are quite diverse: some
+        teams give very basic overviews over how their projects work,
+        developers run Q&amp;A sessions, have online discussions or present
+        new ideas. These are not tied to Ubuntu Development, but shows the
+        whole range of the Ubuntu community.
+      </p>
+      <p>
+        On the site you can get in touch with the guests of the show as well.
+        No matter who&rsquo;s on, if it&rsquo;s a new contributor, a seasoned
+        engineer, a team manager at Canonical or anyone else, on
+        <a href="https://www.ubuntuonair.com" class="p-link--external">
+          www.ubuntuonair.com</a>
+        you can ask all the questions you have during the live programmes as
+        well.
+      </p>
+      <p>
+        You can check the upcoming events and sessions at
+        <a href="http://www.ubuntuonair.com/calendar" class="p-link--external">
+          www.ubuntuonair.com/calendar</a>.
+        If you have a suggestion for future sessions, or want to propose a
+        guest, make sure to let us know by sending an email to
+        <a href="mailto:onair@ubuntu.com">onair@ubuntu.com</a>, or by pinging
+        <em>jose</em> on irc.freenode.net.
+      </p>
+    </div>
+  </div>
+</section>
+{% endblock content %}

@@ -1,0 +1,103 @@
+{% extends "contribute/base.html" %}
+
+{% block title %}Quality | Contribute{% endblock %}
+
+{% block second_level_nav_items %}
+{% include "templates/_nav_breadcrumb.html" with section_title="Contribute" page_title="Quality" %}
+{% endblock second_level_nav_items %}
+
+{% block content %}
+<section class="p-strip--light is-deep is-bordered">
+  <div class="row">
+    <div class="col-8">
+      <h1 id="quality">Quality</h1>
+      <p>
+        The Quality team is the oil that lubricates the cogs of the engine that
+        is Ubuntu. As a team, we help ensure that the work of many different
+        teams is showcased in a good way. The Quality team believe things
+        should &ldquo;just work&rdquo; when someone chooses one of our flavours
+        or one of the applications available from the archive.
+      </p>
+      <p>
+        If you are new to the ubuntu community, Quality is a great place to
+        start. You will experience and interact with many different teams that
+        Quality liaise with. We will encourage you to follow your interests and
+        participate in these different teams that make Ubuntu
+        &ldquo;happen&rdquo;.
+      </p>
+      <p>
+        As a member of the team you can choose when and how to be involved.
+        Team members write testcases, execute tests, report bugs, give
+        instructional presentations, and encourage best practices for Quality.
+        Much of the work is driven from the same release schedule everyone
+        else is driven by; however, testing activities are flexible enough to
+        allow participation from anyone &mdash; the skills you need can be
+        learned while participating.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="p-strip is-deep">
+  <div class="row">
+    <div class="col-8">
+      <h2 id="get-started">Get started</h2>
+      <p>
+        First of all welcome to the team! Please subscribe to the
+        <a href="https://lists.ubuntu.com/mailman/listinfo/ubuntu-quality"
+          class="p-link--external">
+          Ubuntu Quality mailing list</a> and join the
+        <a href="https://launchpad.net/~ubuntu-testing"
+          class="p-link--external">
+          Launchpad QA Team</a>. You&rsquo;ll want to have a look at the
+        <a href="https://wiki.ubuntu.com/QATeam" class="p-link--external">
+          getting involved section of the wiki</a> to help you get started.
+      </p>
+      <p>
+        Members of the team perform different roles. If you are new to QA,
+        check out the tester role. If you have technical skills, the developer
+        or test writer role might also be of interest. You can see the full
+        list of
+        <a href="https://wiki.ubuntu.com/QATeam/Roles" class="p-link--external">
+          different team roles and activities available on the wiki</a>.
+      </p>
+      <p>
+        Most activities can be done at any point in the cycle, so get started
+        today by choosing a role and subsequent activity.&nbsp; Happy Testing.
+      </p>
+      <h2 id="resources">Resources</h2>
+      <ul>
+        <li>
+          <p>
+            The
+            <a href="https://wiki.ubuntu.com/QATeam" class="p-link--external">
+              Ubuntu QA Team wiki</a> contains more information about the team
+            and walkthroughs to help you get started.
+          </p>
+        </li>
+      </ul>
+      <h2 id="where-to-find-help">Where to find help</h2>
+      <ul>
+        <li>
+          <p>
+            <a href="https://lists.ubuntu.com/mailman/listinfo/ubuntu-quality"
+              class="p-link--external">
+              ubuntu-quality mailing list</a> at
+            <a href="mailto:ubuntu-quality@lists.ubuntu.com">
+              ubuntu-quality@lists.ubuntu.com
+            </a>
+          </p>
+        </li>
+        <li>
+          <p>
+            <a href="http://webchat.freenode.net/?channels=ubuntu-quality"
+              class="p-link--external">
+              #ubuntu-quality IRC channel</a>
+          </p>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+{% endblock content %}

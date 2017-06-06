@@ -1,0 +1,112 @@
+{% extends "contribute/base.html" %}
+
+{% block title %}Launchpad Answers | Support | Contribute {% endblock %}
+
+{% block second_level_nav_items %}
+<div class="strip-inner-wrapper">
+    {% include "templates/_nav_breadcrumb.html" with section_title="Contribute" subsection_title="Support" page_title="Launchpad Answers" tertiary="true" %}
+</div>
+{% endblock second_level_nav_items %}
+
+{% block content %}
+<section class="p-strip--light is-deep is-bordered">
+  <div class="row">
+    <div class="col-8">
+      <h1 id="launchpad-answers">Launchpad Answers</h1>
+      <p>
+        Launchpad Answers is a way for users to ask questions in the Launchpad
+        platform against Ubuntu. Any type of question is accepted (but they
+        have to abide by the Ubuntu Code of Conduct). You can help to answer
+        questions and help users solve their problems.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="p-strip is-deep">
+  <div class="row">
+    <div class="col-8">
+      <h2 id="get-started">Get started</h2>
+      <ol class="p-list">
+        <li class="p-list__item is-ticked">
+          Create a Launchpad account. You need a Launchpad account to be able to
+          ask and answer questions. Go to
+          <a href="https://launchpad.net/+login" class="p-link--external">
+            https://launchpad.net/+login</a> to do so.
+          </li>
+        <li class="p-list__item is-ticked">
+          Go to
+          <a href="https://answers.launchpad.net/ubuntu"
+            class="p-link--external">
+            the Ubuntu Launchpad Answers page</a>.
+          You can ask a question of your own first by clicking &ldquo;Ask a
+          question&rdquo; to see how it works.
+        </li>
+        <li class="p-list__item is-ticked">
+          Choose a open or new question you want to answer.
+        </li>
+        <li class="p-list__item is-ticked">
+          Type your answer in the &ldquo;Message:&rdquo; box and select
+          &ldquo;Propose answer&rdquo;
+        </li>
+        <li class="p-list__item is-ticked">
+          You can also select &ldquo;Add Information Request&rdquo; to request
+          more information from the user proposing the question.
+        </li>
+      </ol>
+      <h2 id="tips-and-tricks">Tips and tricks</h2>
+      <ol>
+        <li>
+          <p>
+            You can link to an existing bug, create a new bug, or just link to
+            or create a new FAQ by clicking the suitable boxes above the
+            &ldquo;Message&rdquo; box.
+          </p>
+        </li>
+        <li>
+          <p>
+            Even if you don&rsquo;t know the answer to a certain question,
+            don&rsquo;t feel unhappy, there are a lot of questions to choose
+            from.
+          </p>
+        </li>
+        <li>
+          <p>
+            You can set yourself as an &ldquo;Answer Contact&rdquo; for Ubuntu
+            after you feel happy answering questions. This subscribes you to all
+            the questions given.
+          </p>
+        </li>
+        <li>
+          <p>
+            Try to answer questions that you are knowledgeable about, so that
+            you would not provide unuseful solutions to users.
+          </p>
+        </li>
+        <li>
+          <p>
+            Aim for answering open questions, as they have no answers given from
+            the community.
+          </p>
+        </li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<section class="p-strip--accent is-shallow">
+  <div class="row">
+    <div class="col-12">
+      <h3 id="where-to-find-help">Where to find help</h3>
+      <p>
+        A Launchpad guide on Launchpad Answers for offering answers to
+        questions is available at
+        <a href="https://help.launchpad.net/Answers/OfferingHelp"
+          class="p-link--strong" style="color: #fff;">
+          the help site</a>.
+      </p>
+    </div>
+  </div>
+</section>
+
+{% endblock content %}

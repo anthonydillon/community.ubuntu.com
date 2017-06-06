@@ -1,0 +1,62 @@
+{% extends "contribute/base.html" %}
+
+{% block title %}Finding help | Help and information{% endblock %}
+
+{% block second_level_nav_items %}
+{% include "templates/_nav_breadcrumb.html" with section_title="Help and information" page_title="Finding help" tertiary="true" %}
+{% endblock second_level_nav_items %}
+
+{% block content %}
+<section class="p-strip--light is-deep is-bordered">
+  <div class="row">
+    <div class="col-8">
+      <h1 id="finding-help">Finding help</h1>
+      <p>
+        Not knowing everything is perfectly normal. Luckily we are a very big
+        community who can all help each other. After all Ubuntu means
+        &ldquo;&rsquo;I am what I am because of who we all are&rdquo;, which
+        results in a friendly and respectful atmosphere. Find the right place
+        to ask and people will be happy to help you out.
+      </p>
+      <p>
+        In turn you should feel encouraged to help out if you have answers. We
+        can learn a lot from each other and make the world a better place.
+      </p>
+      <p>There are several ways to find help quickly. Among them are:</p>
+      <ul class="p-list--divided">
+        <li class="p-list__item">
+          <a href="http://community.ubuntu.com/help-information/finding-help/support/"
+            class="p-link--external">
+            Our general Support network
+          </a>
+        </li>
+        <li class="p-list__item">
+          <a href="http://community.ubuntu.com/contribute/support/ask-ubuntu/"
+            class="p-link--external">
+            Ask Ubuntu
+          </a>
+        </li>
+        <li class="p-list__item">
+          The <a href="http://community.ubuntu.com/contribute/support/ubuntu-forums/"
+            class="p-link--external">
+            Ubuntu Forums
+          </a>
+        </li>
+        <li class="p-list__item">
+          <a href="http://community.ubuntu.com/contribute/support/irc/"
+            class="p-link--external">
+            Internet Relay Chat (IRC)
+          </a>
+        </li>
+        <li class="p-list__item">
+          <a href="http://community.ubuntu.com/contribute/support/launchpad-answers/"
+            class="p-link--external">
+            Launchpad Answers
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+{% endblock content %}

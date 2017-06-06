@@ -1,0 +1,143 @@
+{% extends "contribute/base.html" %}
+
+{% block title %}Support | Finding help | Help and information{% endblock %}
+
+{% block second_level_nav_items %}
+{% include "templates/_nav_breadcrumb.html" with section_title="Help and information" subsection_title="Finding help" page_title="Support" tertiary="true" %}
+{% endblock second_level_nav_items %}
+
+{% block content %}
+<section class="p-strip--light is-deep is-bordered">
+  <div class="row">
+    <div class="col-8">
+      <h1 id="community-support">Community support</h1>
+      <ul class="p-list--divided">
+        <li class="p-list__item">
+          <a href="/support/community">Ubuntu Community blogs</a>
+        </li>
+        <li class="p-list__item">
+          <a href="/contribute/support/ubuntu-forums/">Ubuntu forums</a>
+        </li>
+        <li class="p-list__item">
+          <a href="/contribute/support/irc/">Chat (IRC)</a>
+        </li>
+        <li class="p-list__item">
+          <a href="/contribute/support/launchpad-answers/">Launchpad Answers</a>
+        </li>
+        <li class="p-list__item">
+          <a href="/help-information/meeting-other-ubuntu-users/local-communities/">
+            Local language support
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="p-strip is-deep">
+  <div class="row">
+    <div class="col-8">
+      <h2 id="access-free-documentation">Access free documentation</h2>
+      <p>
+        If you are stuck on a problem, someone else has probably encountered it
+        too. Take a look at the
+        <a href="http://help.ubuntu.com/" class="p-link--external">
+          official documentation</a> developed and maintained by the Ubuntu
+        Documentation Team.
+      </p>
+      <h2 id="live-support-chat">Live support chat</h3>
+      <p>
+        If you would rather ask questions directly to the Ubuntu Community,
+        you can
+        <a href="/contribute/support/irc/">
+          access our Internet relay chat (IRC) channel
+        </a>.
+      </p>
+      <p>
+        If you are new to Ubuntu, and have not used IRC before, check out
+        <a href="https://help.ubuntu.com/community/InternetRelayChat"
+          class="p-link--external">
+          our instructions</a> for how to join the live chat. Then login to
+        irc.freenode.net and join the #ubuntu channel. There are also
+        dedicated channels for development, bugs, local community (LoCo)
+        teams, accessibility and documentation.
+      </p>
+      <p>
+        When participating in Ubuntu IRC channels, please follow the
+        <a href="http://www.ubuntu.com/about/about-ubuntu/conduct"
+          class="p-link--external">
+          Code of conduct</a>.
+      </p>
+      <h2 id="web-forums">Web forums</h2>
+      <p>
+        If you prefer to use web forums rather than mailing lists, especially
+        for support-related issues, you can use or search the
+        <a href="http://ubuntuforums.org/forum.php"
+          class="p-link--external">
+          Ubuntu forums</a>.
+        There are also
+        <a href="/help-information/meeting-other-ubuntu-users/local-communities/">
+          local language forums
+        </a> available.
+      </p>
+      <h2 id="mailing-lists">Mailing lists</h2>
+      <p>
+        Ubuntu development, support and discussions continually take place
+        within our IRC channels and mailing lists. To join a
+        <a href="/contribute/support/mailinglists/">
+          mailing list
+        </a>
+        simply click on the mailing list you wish to join for further
+        instructions.
+      </p>
+      <h2 id="ask-ubuntu">Ask Ubuntu</h2>
+      <p>
+        <a href="http://askubuntu.com/" class="p-link--external">
+          http://askubuntu.com
+        </a>
+      </p>
+      <p>
+        This is a collaboratively edited question and answer site for Ubuntu
+        users and developers. If you&rsquo;re looking to ask questions on how
+        to use your Ubuntu computer, then this is the place to go. Instead of
+        posting like a mailing list or forum, this site works by you repeatedly
+        editing your question with what you&rsquo;ve learned about your
+        problem, and then users can rate the quality of the questions and
+        answers by voting. If you&rsquo;re interested in learning how the site
+        works, check out
+        <a href="https://meta.askubuntu.com/questions/257/how-does-ask-ubuntu-work"
+          class="p-link--external">
+          this guide</a>.
+      </p>
+      <p>
+        This site is English only, if you need support in another language,
+        see Launchpad Answers below.
+      </p>
+      <h3 id="technical-answers-system">Technical answers system</h3>
+      <p>
+        Add a support-related question to the search-field on
+        <a href="https://answers.launchpad.net/" class="p-link--external">
+          Launchpad</a>.
+        Keep your query active until a community member offers the answer you
+        need. You can also search the complete history of questions and
+        answers. This site supports multiple-languages.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="p-strip--accent is-shallow">
+  <div class="row">
+    <div class="col-8">
+      <h3 id="or-just-come-hang-out">&hellip; or just come hang out</h3>
+      <p>
+        Sometimes support is more than just helping each other all day, hanging
+        out with other people who use Ubuntu is also a good way to learn and
+        make new friends. Sometimes you just want to kick back, relax, and talk
+        about Ubuntu with the rest of the community.
+      </p>
+    </div>
+  </div>
+</section>
+
+{% endblock content %}

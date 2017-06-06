@@ -1,0 +1,68 @@
+{% extends "contribute/base.html" %}
+
+{% block title %}News | Keeping up to date | Help and information{% endblock %}
+
+{% block second_level_nav_items %}
+{% include "templates/_nav_breadcrumb.html" with section_title="Help and information" subsection_title="Keeping up to date" page_title="News" tertiary="true" %}
+{% endblock second_level_nav_items %}
+
+{% block content %}
+<section class="p-strip--light is-deep is-bordered">
+  <div class="row">
+    <div class="col-8">
+      <h1 id="news">News</h1>
+      <h2>Sources of Ubuntu news</h2>
+      <p>
+        Here are additional news and information resources to check and follow
+        if you want to explore the world of Ubuntu more deeply.
+      </p>
+      <ul class="p-list--divided">
+        <li class="p-list__item">
+          <a href="http://fullcirclemagazine.org/"
+            class="p-link--external">Full Circle Magazine</a>
+        </li>
+        <li class="p-list__item">
+          <a href="http://www.ubuntubuzz.com"
+            class="p-link--external">Ubuntu Buzz</a>
+        </li>
+        <li class="p-list__item">
+          <a href="http://www.ubuntuvibes.com/"
+            class="p-link--external">Ubuntu Vibes</a>
+        </li>
+        <li class="p-list__item">
+          <a href="http://2buntu.com/"
+            class="p-link--external">2buntu</a>
+        </li>
+        <li class="p-list__item">
+          <a href="http://www.tombuntu.com/"
+            class="p-link--external">Tombuntu</a>
+        </li>
+        <li class="p-list__item">
+          <a href="http://www.howtogeek.com/tag/ubuntu/"
+            class="p-link--external">How To Geek Ubuntu</a>
+        </li>
+        <li class="p-list__item">
+          <a href="http://www.webupd8.org/"
+            class="p-link--external">Web Upd8</a>
+        </li>
+        <li class="p-list__item">
+          <a href="http://podcast.ubuntu-uk.org/"
+            class="p-link--external">Ubuntu UK Podcast</a>
+        </li>
+        <li class="p-list__item">
+          <a href="http://howtoubuntu.org/"
+            class="p-link--external">How To Ubuntu</a>
+        </li>
+        <li class="p-list__item">
+          <a href="http://www.ubuntugeek.com/"
+            class="p-link--external">Ubuntu Geek</a>
+        </li>
+        <li class="p-list__item">
+          <a href="http://www.upubuntu.com/"
+            class="p-link--external">UpUbuntu Blog</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+{% endblock content %}
