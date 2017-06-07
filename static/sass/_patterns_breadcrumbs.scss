@@ -4,6 +4,19 @@
       display: flex;
     }
 
+    &__link {
+      color: $color-mid-dark;
+
+      &:hover {
+        text-decoration: underline;
+        color: currentColor;
+      }
+
+      &:visited {
+        @extend .p-breadcrumbs__link;
+      }
+    }
+
     &__item {
       margin-bottom: 0;
     }
@@ -28,11 +41,19 @@
         @extend .p-breadcrumbs__link;
       }
 
-      .p-inline-list__link,
-      .p-breadcrumbs__link {
-        &.is-active {
-          color: $color-brand;
-        }
+    }
+
+    .p-inline-list__link,
+    .p-breadcrumbs__link {
+      &.is-active {
+        color: $color-brand;
+      }
+    }
+
+    .nav-secondary__menu,
+    .nav-tertiary__menu {
+      .p-inline-list__link {
+        color: $color-dark;
       }
     }
 
