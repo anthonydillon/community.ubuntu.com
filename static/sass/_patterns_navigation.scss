@@ -6,6 +6,26 @@
       text-decoration: none !important;
     }
 
+    // XXX: Ant 08.08.2017
+    // Temporarily align the navigations menu links with the logo.
+    // https://github.com/vanilla-framework/vanilla-framework/issues/1103
+    .p-navigation__banner {
+      position: relative;
+      overflow: hidden;
+
+      @media screen and (min-width: $breakpoint-navigation-threshold + 1) {
+        float: left;
+      }
+    }
+
+    .p-navigation__toggle--open,
+    .p-navigation__toggle--close {
+      position: absolute;
+      top: calc(50% - .75rem);
+      right: 1rem;
+      margin: 0;
+    }
+
     @media screen and (min-width: $breakpoint-navigation-threshold) {
 
       &__link {
